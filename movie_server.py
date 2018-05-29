@@ -82,8 +82,3 @@ class MovieServer(BaseHTTPRequestHandler):
 #   Fetch movies using method in this class and open movie page
 MovieServer.fetch_movies()
 fresh_tomatoes.open_movies_page(movies)
-
-
-
-
-
